@@ -55,5 +55,6 @@ background-color: aquamarine;
 
 }
 footer{
+    table-layout: auto;
     background-color: darkgreen;
 }
