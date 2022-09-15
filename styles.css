@@ -1,7 +1,16 @@
+body{
+    background-color: olivedrab;
+}
 header{
+    float: top;
 background-color: aquamarine;
 }
-
+.header-text{
+    float: left;
+}
+.header-headline{
+    float: right;
+}
 
 .mainbody{
     display: grid;
@@ -20,6 +29,7 @@ background-color: aquamarine;
     grid-row-start: 1;
     grid-row-end: 8;
     background-color: blueviolet;
+    box-sizing: content-box;
 }
 
 .div3{
@@ -28,6 +38,7 @@ background-color: aquamarine;
     grid-row-start: 1;
     grid-row-end: 8;
     background-color: green;
+    box-sizing: content-box;
 }
 
 .div4{
@@ -36,6 +47,7 @@ background-color: aquamarine;
     grid-row-start: 1;
     grid-row-end: 9;
     background-color: blueviolet;
+    box-sizing: content-box;
 }
 .div5{
     grid-column-start: 4;
@@ -43,6 +55,7 @@ background-color: aquamarine;
     grid-row-start: 1;
     grid-row-end: 9;
     background-color: deeppink;
+    box-sizing: content-box;
 
 }
 
@@ -52,6 +65,7 @@ background-color: aquamarine;
     grid-row-start: 8;
     grid-row-end: 9;
     background-color: darkblue;
+    box-sizing: content-box;
 
 }
 footer{
