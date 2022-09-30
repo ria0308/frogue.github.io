@@ -1,25 +1,52 @@
 body{
-    background-color: olivedrab;
+    background-color: black;
+
+    margin: 0;
+    padding: 0;
 }
-header{
-    float: top;
-background-color: aquamarine;
+
+body{
+    min-height: 100vh;
 }
-.header-text{
-    float: left;
+
+.wrapper{
+    min-height: 100vh;
 }
+.header{
+    display: flex;
+    background-color: #133A1B;
+    background-repeat: repeat-x;
+    background-position: center;
+
+}
+
+
+.header-text {
+    text-align: left;
+    font-size: 24px;
+    width: 80%;
+    justify-content: center;
+    color: #DFE667;
+
+}
+
 .header-headline{
-    float: right;
+    text-align: right;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #DFE667;
 }
+
 
 .mainbody{
+    position: relative;
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 100px;
+    grid-auto-rows: auto;
     grid-row-gap: 0;
     grid-column-gap: 5%;
-
 }
 
 
@@ -28,7 +55,7 @@ background-color: aquamarine;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 8;
-    background-color: blueviolet;
+    background-color: #7EA310;
     box-sizing: content-box;
 }
 
@@ -37,7 +64,7 @@ background-color: aquamarine;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 8;
-    background-color: green;
+    background-color: #DFE667;
     box-sizing: content-box;
 }
 
@@ -46,7 +73,7 @@ background-color: aquamarine;
     grid-column-end:4;
     grid-row-start: 1;
     grid-row-end: 9;
-    background-color: blueviolet;
+    background-color: #7EA310;
     box-sizing: content-box;
 }
 .div5{
@@ -54,7 +81,7 @@ background-color: aquamarine;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 9;
-    background-color: deeppink;
+    background-color: #DFE667;
     box-sizing: content-box;
 
 }
@@ -64,11 +91,35 @@ background-color: aquamarine;
     grid-column-end: 3;
     grid-row-start: 8;
     grid-row-end: 9;
-    background-color: darkblue;
+    background-color: green;
     box-sizing: content-box;
 
 }
-footer{
-    table-layout: auto;
-    background-color: darkgreen;
+
+.img_small{
+    width: 100%;
+
+}
+.footer{
+    background-color: #133A1B;
+    display: flex;
+
+}
+
+
+.footer-text {
+    color: #DFE667;
+    text-align: right;
+    justify-content: right;
+    font-size: 8px;
+}
+
+.footer-headline{
+    text-align: left;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #DFE667;
+    min-width: 40vw;
 }
