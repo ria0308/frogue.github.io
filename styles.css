@@ -1,12 +1,11 @@
 body{
-    background-color: black;
-
+    background-color: #133A1B;
     margin: 0;
     padding: 0;
 }
 
 .wrapper{
-    min-height: 100%;
+    height: 100%;
 }
 .header{
     display: flex;
@@ -47,6 +46,8 @@ body{
     grid-auto-rows: auto;
     grid-row-gap: 0;
     grid-column-gap: 5%;
+    background-color: black;
+
 }
 
 
