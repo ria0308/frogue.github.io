@@ -5,12 +5,8 @@ body{
     padding: 0;
 }
 
-body{
-    min-height: 100vh;
-}
-
 .wrapper{
-    min-height: 100vh;
+    min-height: 100%;
 }
 .header{
     display: flex;
